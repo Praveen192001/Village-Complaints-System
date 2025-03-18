@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/textviewTextColour"
+            android:gravity="center"
+            android:textSize="55dp"
+            android:layout_marginTop="145dp"/>
+
+        <EditText
+            android:id="@+id/userNameInRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter username"
+            android:textColor="@color/textviewTextColour"
+            android:textColorHint="@color/textViewColour"
+            android:layout_below="@id/register"
+            android:layout_marginTop="55dp"/>
+
+
+        <EditText
+            android:id="@+id/emailInRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textviewTextColour"
+            android:textColorHint="@color/textViewColour"
+            android:layout_below="@id/userNameInRegister"/>
+
+        <EditText
+            android:id="@+id/passwordInRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:textColor="@color/textviewTextColour"
+            android:textColorHint="@color/textViewColour"
+            android:inputType="textPassword"
+            android:layout_below="@id/emailInRegister"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/passwordInRegister">
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:layout_below="@id/passwordInRegister"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"/>
+
+
+
+            <TextView
+                android:id="@+id/registerToLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Logged Please Sign In"
+                android:textColor="@color/textviewTextColour"
+                android:layout_below="@id/registerButton"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:layout_marginTop="125dp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

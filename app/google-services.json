@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629735216248",
+    "project_id": "village-complaint",
+    "storage_bucket": "village-complaint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629735216248:android:5b0f7ecfc75999b440098d",
+        "android_client_info": {
+          "package_name": "com.example.villageadministrationcomplaint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH6gMmmmtTNkM92LuAsLnb8A8unc6QDeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/status_colour">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textColor="@color/textColour"
+            android:textSize="23dp"/>
+
+        <ImageView
+            android:id="@+id/peopleViewFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_feedback"
+            android:scaleType="fitEnd"
+            android:layout_marginRight="5dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/peopleViewFeedbackListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/white"/>
+
+</LinearLayout>

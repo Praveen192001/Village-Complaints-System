@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/status_colour">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Complaints"
+            android:textSize="23dp"
+            android:textColor="@color/white"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="9dp">
+
+
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Name:"
+            android:textColor="@color/textviewTextColour"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/PeopleComplaintAdminName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/textViewColour"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/userName"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:"
+            android:textColor="@color/textviewTextColour"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/PeopleComplaintAdminName"/>
+
+        <TextView
+            android:id="@+id/PeopleComplaintTitleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/textViewColour"
+            android:textSize="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/PeopleComplaintAdminName"
+            android:layout_toRightOf="@id/title"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textColor="@color/textviewTextColour"
+            android:layout_marginLeft="51dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/PeopleComplaintTitleName"/>
+
+        <TextView
+            android:id="@+id/PeopleComplaintStatusName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/textViewColour"
+            android:textSize="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_below="@id/PeopleComplaintTitleName"
+            android:layout_toRightOf="@id/title"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content:"
+            android:textColor="@color/textviewTextColour"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/PeopleComplaintStatusName"/>
+
+        <TextView
+            android:id="@+id/PeopleComplaintContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PeopleComplaintStatusName"
+            android:text=""
+            android:textColor="@color/textViewColour"
+            android:textSize="21dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/content"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

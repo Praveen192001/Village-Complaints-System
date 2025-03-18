@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_message"
+            android:title="message"/>
+
+        <item
+            android:id="@+id/menu_complaint"
+            android:title="complaint"/>
+
+        <item
+            android:id="@+id/menu_feedback"
+            android:title="feedBack"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="profile">
+
+            <menu>
+            <item
+                android:title="logout"
+                android:id="@+id/menu_logout"/>
+
+                <item
+                    android:title="admin details"
+                    android:id="@+id/admin_details"/>
+            </menu>
+
+
+        </item>
+    </group>
+
+
+</menu>

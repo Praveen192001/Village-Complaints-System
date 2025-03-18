@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="road"
+        android:id="@+id/listViewData_Titile"
+        android:textColor="@color/textViewColour"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="issue"
+        android:layout_below="@id/listViewData_Titile"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="complaint"
+        android:id="@+id/listViewData_Type"
+        android:textColor="@color/textViewColour"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="issue"
+        android:id="@+id/listView_status"
+        android:layout_below="@id/listViewData_Type"
+        android:layout_alignParentRight="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

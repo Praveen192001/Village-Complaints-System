@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/navigationHeader"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/profile"
+            android:id="@+id/prfile"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satoru gojo"
+        android:layout_below="@+id/prfile"
+        android:id="@+id/adminHeaderName"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chennai"
+            android:id="@+id/adminHeaderVillageName"
+            android:layout_below="@id/adminHeaderName"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

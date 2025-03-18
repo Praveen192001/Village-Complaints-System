@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/peopleComplaintToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/status_colour">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textSize="23dp"
+            android:textColor="@color/textColour"/>
+
+        <ImageView
+            android:id="@+id/peopleFeedBackSend"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_send"
+            android:scaleType="fitEnd"
+            android:layout_marginEnd="5dp"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp">
+
+        <EditText
+            android:id="@+id/peopleFeedBackTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="12dp"/>
+
+
+        <EditText
+            android:id="@+id/peopleFeedBackContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Here"
+            android:inputType="textMultiLine"
+            android:gravity="start"
+            android:background="@drawable/edittext"
+            android:textColorHint="@color/black"
+            android:layout_below="@+id/peopleFeedBackTitle"
+            android:layout_marginTop="12dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

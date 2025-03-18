@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Village Administration complaint</string>
+
+    <string name="navigation_open">Open navigation drawer</string>
+    <string name="navigation_close">Close navigation drawer</string>
+
+
+    <string name="hyperlink"><a href="https://www.tnesevai.tn.gov.in//">tnesevai.tn.gov</a></string>
+    </resources>
